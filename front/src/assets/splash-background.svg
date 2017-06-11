@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1440px" height="800px" viewBox="0 0 1440 800" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 164</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="37.6429447%" cy="0%" fx="37.6429447%" fy="0%" r="128.029953%" id="radialGradient-1">
+            <stop stop-color="#2C98E3" offset="0%"></stop>
+            <stop stop-color="#2BBBE5" offset="65.5313297%"></stop>
+            <stop stop-color="#2BC0DF" offset="97.8379104%"></stop>
+            <stop stop-color="#2BC0DE" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g sketch:type="MSArtboardGroup" id="Rectangle-164" fill="url(#radialGradient-1)">
+            <rect sketch:type="MSShapeGroup" x="0" y="0" width="1440" height="800"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+group 'org.zcy'
+version '1.0-SNAPSHOT'
+buildscript {
+    ext {
+        springBootVersion = '1.5.1.RELEASE'
+    }
+    repositories {
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+        }
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'application'
+
+jar {
+    baseName = 'bms'
+    version = '0.9.0'
+    manifest {
+        attributes 'Main-Class': 'org.zcy.Application'
+    }
+    into ('/')
+    from configurations.compile
+}
+
+repositories {
+    maven {
+        url 'http://maven.aliyun.com/nexus/content/groups/public/'
+    }
+}
+
+dependencies {
+    compile('mysql:mysql-connector-java')
+    compile('org.springframework:spring-jdbc:4.3.7.RELEASE')
+    compile('org.springframework.boot:spring-boot-starter-web')
+}
